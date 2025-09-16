@@ -1,0 +1,26 @@
+h1, h2
+{
+	text-align: center;
+}
+
+body
+{
+	width: 768px;
+	margin: auto;
+}
+
+#me
+{
+	margin: auto;
+
+	img
+	{
+		display: block;
+		margin: auto;
+	}
+
+	p
+	{
+		text-align: center;
+	}
+}
