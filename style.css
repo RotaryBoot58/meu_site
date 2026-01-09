@@ -1,12 +1,19 @@
-h1, h2
-{
-	text-align: center;
-}
-
 body
 {
 	width: 768px;
 	margin: auto;
+
+	h1, h2
+	{
+		text-align: center;
+	}
+
+	#language-anchor
+	{
+		position: fixed;
+		bottom: 64px;
+		right: 64px;
+	}
 }
 
 #me
@@ -17,17 +24,11 @@ body
 	{
 		display: block;
 		margin: auto;
+		height: 256px;
 	}
 
 	p
 	{
 		text-align: center;
 	}
-}
-
-button
-{
-	position: fixed;
-	bottom: 64px;
-	right: 64px;
 }
